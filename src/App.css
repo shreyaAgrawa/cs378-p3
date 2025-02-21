@@ -1,0 +1,104 @@
+/* 
+  Style your elements by creating CSS classes here.
+  Below, you can see an example of a class called "menu" that changes the color of the text to blue. Modify according to your needs.
+*/
+
+.header {
+  display:flex;
+  justify-content:center;
+  margin-top:30px;
+}
+
+.menu-description {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 15px;
+}
+
+.flex-center {
+  display:flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.menu-center {
+  display:flex;
+  justify-content:center;
+  margin-top:10px;
+}
+
+.menu-photos {
+  /* display:inline-block; */
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.menu-items {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  /* margin:10px; */
+}
+
+.menu-text {
+  display: flex;
+  flex-direction: column; /* Ensure text is stacked vertically */
+}
+
+.headingText {
+  margin-top: 20px;
+  display:block;
+}
+
+.decorative-font {
+  font-family: "Dancing Script", serif;
+  font-optical-sizing: auto;
+  font-size: 20px;
+  font-weight: 200;
+  padding: 5px;
+  font-style:italic;
+  margin:0 auto;
+  text-align: center;
+}
+
+.second-header {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 5px;
+  margin:0 auto;
+  text-align: center;
+}
+
+.logo-photo {
+  width: 150px;
+  position: relative;
+}
+
+button {
+  padding: 2px 6px;
+  border-radius: 10px;
+  background-color: #e8eea4;
+}
+
+.menu-buttons {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.end-results {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.end-buttons {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
